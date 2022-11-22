@@ -17,7 +17,7 @@ Add user to mysql
 sudo docker exec -it mysql bash
 ```
 ```
-mysql-u root -p
+mysql -u root -p
 ```
 ```
 CREATE USER 'user1'@'%' IDENTIFIED BY 'user1@123';
